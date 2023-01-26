@@ -1,0 +1,10 @@
+There is a users table in PostgreSQL with the following schema:
+
+Table: users
+  first_name: String
+  last_name: String
+  member: Boolean
+  created_at: Datetime
+  updated_at: Datetime
+
+Please create a model for the `users` table and a method on that model to pull all user names sorted by last name. Additionally, could this method take an argument to show all users or only members. Lastly - please create a single-file Vue component to render the list of user names (style doesn’t matter). You can assume any endpoint for users you’d like such as “/api/v1/users” that responds with the data from the method you wrote in JSON.
